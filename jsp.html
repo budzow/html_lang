@@ -1,6 +1,5 @@
 <html lang="${htmlLanguage}">
-  <jsp:text>I do not specify lang parameter despite my parent html tag having "lang" attribute. 
-    <text>This is what triggers the rule S5254.</text> 
-    <text>"lang" attribute of the parent can be valid or empty, it its presence at the parent level AND its absence (with valid value) on a child level that triggers the issue</text>
-  </jsp:text>
+  <jsp:text>I do not specify lang parameter despite my parent html tag having "lang" attribute.</jsp:text> 
+  <text>This is what triggers the rule S5254.</text> 
+  <p>"lang" attribute of the parent can be valid or empty, it its presence at the parent level AND its absence (with valid value) on a child level that triggers the issue</p>
 </html>
